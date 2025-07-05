@@ -81,12 +81,12 @@ document.addEventListener('DOMContentLoaded', function() {
         ],
         'illustration': [
             // Local images from 'illustrations/' folder
-            { src: 'illustrations/illustration1.jpg', title: 'Digital Character Illustration' },
-            { src: 'illustrations/illustration2.jpg', title: 'Book Cover Illustration' },
-            { src: 'illustrations/illustration3.jpg', title: 'Editorial Illustration' },
-            { src: 'illustrations/illustration4.jpg', title: 'Concept Art Illustration' }, 
-            { src: 'illustrations/illustration5.jpg', title: 'Children\'s Book Illustration' }, 
-            { src: 'illustrations/illustration6.jpg', title: 'Fantasy World Illustration' }
+            { src: 'Illustrations/illustration1.jpg', title: 'Digital Character Illustration' },
+            { src: 'Illustrations/illustration2.jpg', title: 'Book Cover Illustration' },
+            { src: 'Illustrations/illustration3.jpg', title: 'Editorial Illustration' },
+            { src: 'Illustrations/illustration4.jpg', title: 'Concept Art Illustration' }, 
+            { src: 'Illustrations/illustration5.jpg', title: 'Children\'s Book Illustration' }, 
+            { src: 'Illustrations/illustration6.jpg', title: 'Fantasy World Illustration' }
         ],
         'packaging-design': [
             // Local images from 'packaging/' folder - arranged attractively
