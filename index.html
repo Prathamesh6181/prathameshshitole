@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prathamesh Shitole — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Floating Navigation Bar -->
+    <nav class="floating-navbar">
+        <div class="nav-container">
+            <!-- Left: Avatar & Name -->
+            <div class="nav-left">
+                <div class="nav-avatar">
+                    <img src="photo.JPG" alt="Prathamesh">
+                </div>
+                <span class="nav-name">Prathamesh</span>
+            </div>
+
+            <!-- Center: Navigation Links -->
+            <ul class="nav-links">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#design-links" class="nav-link">Design</a></li>
+                <li><a href="#graphic-design-section" class="nav-link">Portfolio</a></li>
+                <li><a href="#blog" class="nav-link">Blog</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <!-- Right: CTA Button -->
+            <div class="nav-right">
+                <a href="#contact" class="nav-cta lets-connect">Let's Connect</a>
+            </div>
+
+            <!-- Mobile Menu Toggle -->
+            <button class="mobile-menu-toggle" id="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+    <button class="modal-close-btn" id="modal-close-btn" aria-label="Close" style="display:none"><i class="fas fa-times"></i></button>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-blobs">
+            <div class="blob blob-orange"></div>
+            <div class="blob blob-yellow"></div>
+            <div class="blob blob-coral"></div>
+        </div>
+        <!-- Main content -->
+        <div class="hero-content">
+            <h1 class="hero-title">PORTFOLIO</h1>
+            <p class="hero-subtitle">Prathamesh Shitole — Graphic & 3D Designer</p>
+        </div>
+        
+        <!-- Scroll indicator -->
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-paragraph">
+                        I'm <span class="highlight-text">Prathamesh Shitole</span>, a Graphic & 3D Designer with a creative mind shaped by a <span class="highlight-text">B.Voc in Multimedia & Animation</span>. I craft visual experiences that merge bold storytelling, clean design, and dimensional thinking. Whether it's brand identity, poster design, or immersive 3D environments, I bring a balance of creativity and precision to every project.
+                    </p>
+                    <p class="about-paragraph">
+                        Tools I love: Photoshop, Illustrator, Figma, and Maya.
+                    </p>
+                    <p class="about-tagline">Creative solutions in every dimension.</p>
+                </div>
+                
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fas fa-image"></i>
+                        </div>
+                        <span class="skill-label">Photoshop</span>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <span class="skill-label">Illustrator</span>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fas fa-cube"></i>
+                        </div>
+                        <span class="skill-label">Autodesk Maya</span>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fab fa-figma"></i>
+                        </div>
+                        <span class="skill-label">Figma</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Design Links Section -->
+    <section class="design-links" id="design-links">
+        <div class="container">
+            <h2 class="section-title">My Work</h2>
+            
+            <div class="design-cards">
+                <div class="design-card" id="graphic-design">
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3 class="card-title">Graphic Design</h3>
+                        <p class="card-description">Visual storytelling through typography, color, and composition</p>
+                    </div>
+                    <div class="card-overlay"></div>
+                </div>
+                
+                <div class="design-card" id="3d-animation">
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <i class="fas fa-cube"></i>
+                        </div>
+                        <h3 class="card-title">3D Animation</h3>
+                        <p class="card-description">Bringing ideas to life in three-dimensional space</p>
+                    </div>
+                    <div class="card-overlay"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Graphic Design Section -->
+    <section class="graphic-design" id="graphic-design-section">
+        <div class="container">
+            <!-- Section Intro -->
+            <div class="section-intro">
+                <h2 class="section-title">Graphic Design</h2>
+                <p class="section-description">
+                    I create impactful graphics that convey your brand's message, from logos to marketing materials.
+                </p>
+            </div>
+
+            <!-- Showcase Grid -->
+            <div class="showcase-grid">
+                <!-- Poster Design Card -->
+                <div class="showcase-card design-card" data-gallery="poster-design">
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <i class="fas fa-image"></i>
+                        </div>
+                        <h3 class="card-title">Poster Design</h3>
+                        <p class="card-description">
+                            Eye-catching posters that grab attention and communicate your message effectively.
+                        </p>
+                        <button class="view-gallery-btn">View Posters</button>
+                    </div>
+                    <div class="card-overlay"></div>
+                </div>
+
+                <!-- Logos & Branding Card -->
+                <div class="showcase-card design-card" data-gallery="logos-branding">
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h3 class="card-title">Logos & Branding</h3>
+                        <p class="card-description">
+                            Distinctive logos and comprehensive branding solutions that build strong brand identity.
+                        </p>
+                        <button class="view-gallery-btn">View Logos</button>
+                    </div>
+                    <div class="card-overlay"></div>
+                </div>
+
+                <!-- Illustration Card -->
+                <div class="showcase-card design-card" data-gallery="illustration">
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3 class="card-title">Illustration</h3>
+                        <p class="card-description">
+                            Custom illustrations and digital art that bring your ideas to life with creativity and style.
+                        </p>
+                        <button class="view-gallery-btn">View Illustrations</button>
+                    </div>
+                    <div class="card-overlay"></div>
+                </div>
+
+                <!-- Packaging Design Card -->
+                <div class="showcase-card design-card" data-gallery="packaging-design">
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <i class="fas fa-box"></i>
+                        </div>
+                        <h3 class="card-title">Packaging Design</h3>
+                        <p class="card-description">
+                            Innovative packaging solutions that enhance product appeal and customer experience.
+                        </p>
+                        <button class="view-gallery-btn">View Packaging</button>
+                    </div>
+                    <div class="card-overlay"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3D Design Section -->
+    <section class="graphic-design" id="3d-design-section">
+        <div class="container">
+            <!-- Section Intro -->
+            <div class="section-intro">
+                <h2 class="section-title">3D Design</h2>
+                <p class="section-description">
+                    I craft immersive 3D visuals that blend technical precision with creative storytelling — from product renders to animated environments.
+                </p>
+            </div>
+
+            <!-- Showcase Grid -->
+            <div class="showcase-grid">
+                <!-- Product Visualization Card -->
+                <div class="showcase-card design-card" data-gallery="3d-product-viz">
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <i class="fas fa-cube"></i>
+                        </div>
+                        <h3 class="card-title">Product Visualization</h3>
+                        <p class="card-description">
+                            Realistic product renders for marketing and prototyping.
+                        </p>
+                        <button class="view-gallery-btn">View Products</button>
+                    </div>
+                    <div class="card-overlay"></div>
+                </div>
+
+                <!-- Motion Graphics Card -->
+                <div class="showcase-card design-card" data-gallery="3d-motion-graphics">
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <h3 class="card-title">Motion Graphics</h3>
+                        <p class="card-description">
+                            Animated sequences that communicate, energize, and inspire.
+                        </p>
+                        <button class="view-gallery-btn">View Motion</button>
+                    </div>
+                    <div class="card-overlay"></div>
+                </div>
+
+                <!-- Abstract & Environments Card -->
+                <div class="showcase-card design-card" data-gallery="3d-abstract-environments">
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <i class="fas fa-mountain"></i>
+                        </div>
+                        <h3 class="card-title">Abstract & Environments</h3>
+                        <p class="card-description">
+                            Experimental 3D spaces and visual explorations.
+                        </p>
+                        <button class="view-gallery-btn">View Environments</button>
+                    </div>
+                    <div class="card-overlay"></div>
+                </div>
+
+                <!-- Architectural Visualization Card -->
+                <div class="showcase-card design-card" data-gallery="3d-architectural-viz">
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <h3 class="card-title">Architectural Visualization</h3>
+                        <p class="card-description">
+                            Photorealistic renders for architectural presentations.
+                        </p>
+                        <button class="view-gallery-btn">View Architecture</button>
+                    </div>
+                    <div class="card-overlay"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog-section" id="blog">
+        <div class="container">
+            <!-- Section Intro -->
+            <div class="section-intro">
+                <h2 class="section-title">Blog</h2>
+                <p class="section-description">
+                    Sharing insights, case studies, and creative inspiration from my design journey.
+                </p>
+            </div>
+
+            <!-- Blog Cards Grid -->
+            <div class="blog-grid">
+                <!-- Insights Card -->
+                <div class="blog-card">
+                    <div class="card-content">
+                        <h3 class="card-title">Insights</h3>
+                        <span class="coming-soon">Coming Soon</span>
+                    </div>
+                    <div class="card-overlay"></div>
+                </div>
+
+                <!-- Case Studies Card -->
+                <div class="blog-card">
+                    <div class="card-content">
+                        <h3 class="card-title">Case Studies</h3>
+                        <span class="coming-soon">Coming Soon</span>
+                    </div>
+                    <div class="card-overlay"></div>
+                </div>
+
+                <!-- Inspiration Card -->
+                <div class="blog-card">
+                    <div class="card-content">
+                        <h3 class="card-title">Inspiration</h3>
+                        <span class="coming-soon">Coming Soon</span>
+                    </div>
+                    <div class="card-overlay"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <!-- Section Intro -->
+            <div class="section-intro">
+                <h2 class="section-title">Contact Me</h2>
+                <p class="section-description">
+                    Let's collaborate on your next project. Get in touch to discuss your ideas.
+                </p>
+            </div>
+
+            <!-- Contact Content -->
+            <div class="contact-content">
+                <!-- Email Section -->
+                <div class="email-section">
+                    <div class="email-container">
+                        <div class="email-info">
+                            <span class="email-label">Email</span>
+                            <span class="email-address">prathamesh6181@gmail.com</span>
+                            <br>
+                            <span class="email-label">Mobile</span>
+                            <div class="mobile-row">
+                                <span class="email-address">8329474660</span>
+                                <button class="copy-mobile-btn" id="copy-mobile-btn" title="Copy Mobile Number"><i class="fas fa-copy"></i></button>
+                            </div>
+                        </div>
+                        <button class="copy-email-btn" id="copy-email-btn">
+                            <i class="fas fa-copy"></i>
+                        </button>
+                    </div>
+                    <div class="copy-feedback" id="copy-feedback">
+                        Email copied to clipboard!
+                    </div>
+                </div>
+
+                <!-- Social Media Section -->
+                <div class="social-section">
+                    <h3 class="social-title">Follow My Work</h3>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/prathameshshitole" target="_blank" class="social-link" aria-label="LinkedIn Profile">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.behance.net/prathamshitole" target="_blank" class="social-link" aria-label="Behance Profile">
+                            <i class="fab fa-behance"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Overlay Gallery Modal -->
+    <div class="gallery-overlay" id="gallery-overlay">
+        <div class="gallery-container">
+            <!-- Gallery Header -->
+            <div class="gallery-header">
+                <h2 class="gallery-title" id="gallery-title">Gallery Title</h2>
+            </div>
+
+            <!-- Gallery Content -->
+            <div class="gallery-content" id="gallery-content">
+                <!-- Gallery images will be dynamically loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Modal -->
+    <div class="contact-modal-overlay" id="contact-modal-overlay">
+        <div class="contact-modal-container">
+            <button class="contact-modal-close" id="contact-modal-close">
+                <i class="fas fa-times"></i>
+            </button>
+            
+            <div class="contact-modal-content">
+                <!-- Left Side - Form -->
+                <div class="contact-modal-left">
+                    <h2 class="contact-modal-title">Let's Connect</h2>
+                    <p class="contact-modal-subtitle">I'd love to hear from you.</p>
+                    
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="contact-email" class="form-label">Your Email</label>
+                            <input type="email" id="contact-email" class="form-input" placeholder="Enter your email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="contact-message" class="form-label">Your Message</label>
+                            <textarea id="contact-message" class="form-textarea" placeholder="Tell me about your project..." rows="4" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="form-submit-btn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+                
+                <!-- Right Side - Decorative & Social -->
+                <div class="contact-modal-right">
+                    <div class="decorative-blob"></div>
+                    
+                    <div class="social-links-section">
+                        <h3 class="social-section-title">Follow My Work</h3>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/prathameshshitole" target="_blank" class="social-link" aria-label="LinkedIn Profile">
+                                <i class="fab fa-linkedin"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="https://www.behance.net/prathamshitole" target="_blank" class="social-link" aria-label="Behance Profile">
+                                <i class="fab fa-behance"></i>
+                                <span>Behance</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <!-- Copyright -->
+            <div class="footer-copyright">
+                <p>&copy; 2025 Prathamesh Shitole. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
